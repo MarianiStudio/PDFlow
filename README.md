@@ -1,15 +1,4 @@
-<div align="center">
-  <img src="https://img.shields.io/badge/React-19.2.3-61DAFB?style=for-the-badge&logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-5.8.2-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-6.2.0-646CFF?style=for-the-badge&logo=vite" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4.0-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
-</div>
-
 # PDFlow - Éditeur PDF Sécurisé & Local
-
-<div align="center">
-  <img width="800" height="400" alt="PDFlow Banner" src="https://via.placeholder.com/800x400/000000/FFFFFF?text=PDFlow+by+Irreductia" />
-</div>
 
 <p align="center">
   <strong>Manipulez vos PDF directement dans votre navigateur • 100% gratuit, privé et sécurisé</strong>
@@ -64,7 +53,7 @@
 
 ```bash
 # Clonez le repository
-git clone https://github.com/irreductia/pdflow.git
+git clone https://github.com/MarianiStudio/PDFlow.git
 cd pdflow
 
 # Installez les dépendances
@@ -131,22 +120,6 @@ pdflow/
 └── index.html        # Template HTML
 ```
 
-## 🌐 Déploiement
-
-PDFlow est optimisé pour le déploiement avec **Nixpacks** via **Dokploy** :
-
-### Configuration Nixpacks
-Le fichier `nixpacks.toml` est préconfiguré pour :
-- Utiliser Node.js 24
-- Installer automatiquement les dépendances
-- Builder l'application
-- Servir les fichiers statiques
-
-### Déploiement rapide
-1. Poussez votre code sur votre repository Git
-2. Connectez Dokploy à votre repository
-3. Déployez automatiquement avec Nixpacks
-
 ## 🛠️ Technologies
 
 - **Frontend** : React 19, TypeScript, Vite
@@ -169,7 +142,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 ## 📞 Support
 
 Pour toute question ou support :
-- Email : contact@irreductia.com
+- Email : hello@irreductia.com
 - Site web : https://irreductia.com
 
 ---
