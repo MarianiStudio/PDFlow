@@ -1,6 +1,6 @@
 # 1. SETUP : On passe à Node 23 pour satisfaire Vite 7 (>=22.12)
 [phases.setup]
-nixPkgs = ["nodejs_24"]
+nixPkgs = ["nodejs_23"]
 
 # 2. INSTALL : CRUCIAL
 # On force "--include=dev" pour installer TypeScript (tsc) même en mode production
