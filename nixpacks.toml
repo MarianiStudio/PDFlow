@@ -1,6 +1,6 @@
-# 1. SETUP : On passe à Node 23 pour satisfaire Vite 7 (>=22.12)
+# 1. SETUP : Utilisation de Node.js 20 LTS pour compatibilité Nixpacks
 [phases.setup]
-nixPkgs = ["nodejs_23"]
+nixPkgs = ["nodejs_20"]
 
 # 2. INSTALL : CRUCIAL
 # On force "--include=dev" pour installer TypeScript (tsc) même en mode production
