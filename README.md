@@ -8,8 +8,6 @@
   <a href="#-fonctionnalités">Fonctionnalités</a> •
   <a href="#-installation">Installation</a> •
   <a href="#-utilisation">Utilisation</a> •
-  <a href="#-déploiement">Déploiement</a> •
-  <a href="#-technologies">Technologies</a>
 </p>
 
 ---
