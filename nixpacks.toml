@@ -1,0 +1,17 @@
+# 1. SETUP : On passe à Node 23 pour satisfaire Vite 7 (>=22.12)
+[phases.setup]
+nixPkgs = ["nodejs_24"]
+
+# 2. INSTALL : CRUCIAL
+# On force "--include=dev" pour installer TypeScript (tsc) même en mode production
+[phases.install]
+cmds = ["npm install"]
+cacheDirectories = ["node_modules"]
+
+# 3. BUILD : On compile
+[phases.build]
+cmds = ["npm run build"]
+
+# 4. START
+[start]
+cmd = "npm run preview"

@@ -1,0 +1,5 @@
+{
+  "name": "PDFlow",
+  "description": "Une application de manipulation PDF élégante, sécurisée et entièrement côté client. Fusionnez, divisez, faites pivoter et organisez vos documents avec une interface fluide inspirée par Apple.",
+  "requestFramePermissions": []
+}
